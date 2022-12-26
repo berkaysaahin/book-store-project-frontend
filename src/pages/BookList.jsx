@@ -25,7 +25,6 @@ export default function ProductList() {
             <Table.HeaderCell>Author</Table.HeaderCell>
             <Table.HeaderCell>Price</Table.HeaderCell>
             <Table.HeaderCell>Units In Stock</Table.HeaderCell>
-            <Table.HeaderCell>Category</Table.HeaderCell>
             <Table.HeaderCell>Paperback</Table.HeaderCell>
             <Table.HeaderCell>Publisher</Table.HeaderCell>
             <Table.HeaderCell>Publication Date</Table.HeaderCell>
@@ -42,7 +41,6 @@ export default function ProductList() {
                 <Table.Cell>{book.author}</Table.Cell>
                 <Table.Cell>{book.unitPrice}</Table.Cell>
                 <Table.Cell>{book.unitsInStock}</Table.Cell>
-                <Table.Cell>{book.category.categoryName}</Table.Cell>
                 <Table.Cell>{book.pages}</Table.Cell>
                 <Table.Cell>{book.publisher}</Table.Cell>
                 <Table.Cell>{book.publicationDate}</Table.Cell>
