@@ -30,7 +30,6 @@ export default function BookDetail() {
                         <Card.Header>{book.bookName}</Card.Header>
                         <Card.Meta>{book.author}</Card.Meta>
                         <Card.Description>
-                          
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
